@@ -16,5 +16,6 @@ Source of raw data: PhilJobs (https://philjobs.org)
 Dashboard Components: 
 
 A. A dash table that summarizes the data.  
-B. A sunburst plot that breaks down the jobs into types and areas of a particular year (year can be chosen by users). 
+B. A sunburst plot that breaks down the jobs into types and areas of a particular year (year can be chosen by users).
+
 C. A lineplot that shows the trends of available jobs from 2015 to 2020 in different areas (areas can be chosen by users) 
