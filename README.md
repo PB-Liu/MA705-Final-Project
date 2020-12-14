@@ -8,6 +8,7 @@ Main question: how have the philosophy job market evolved in the last few years?
 2. How has the numbers of jobs in particular areas changed over years? Is there an area that has become increasingly popular? Conversely, is there an area whose demand is declining?
 3. What is the trend of the different types of jobs (tenure-track, tenured, fixed term, etc.) avaialable? 
 4. As covid-19 pandemic has hit the academic job market hard in the year of 2020, how bad is the situation for philosophy job market overall? 
+
   4.1 Are all areas fare equally, or are areas that fare better than others? 
   4.2 Does the pandemic affect not only the total amount of jobs, but also the types of jobs avaialable? 
 
