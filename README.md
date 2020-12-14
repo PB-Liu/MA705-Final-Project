@@ -1,8 +1,8 @@
 # MA705-Final-Project
-Philosophy Jobs Dashboard 
+Philosophy Jobs Dashboard (https://philjobs.herokuapp.com/)
 
 
-Main question: how have the philosophy job market evolved in the last few years? Specifically:
+Motivating question: how have the philosophy job market evolved in the last few years? Specifically:
 
 1. Which subfiled of philosophy has the most openings? 
 2. How has the numbers of jobs in particular areas changed over years? Is there an area that has become increasingly popular? Conversely, is there an area whose demand is declining?
