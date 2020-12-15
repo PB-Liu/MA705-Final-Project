@@ -18,7 +18,7 @@ Philosophy Jobs Dashboard (https://philjobs.herokuapp.com/)
 ##### 1. Data Cleaning:
     1.1. Drop all redundant columns/variables 
     1.2. Add a new column 'year'; filter the dateframe for years since 2015
-    1.3. Simplify the "Contract Type" column for future worth 
+    1.3. Simplify the "Contract Type" column for future usage 
 
 ##### 2. Data Transformation: 
 
