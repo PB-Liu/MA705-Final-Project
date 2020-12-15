@@ -31,7 +31,7 @@ df1 = df.drop(['Id', 'Start time',  'Deadline', 'How to apply', 'PhilJobs page',
         'Info link', 'Application link'], axis =1)
 
 
-#%%
+
 # 1.2 add a new column 'year'; filter the dateframe for years since 2015
 
 dt = df1['Date posted']
@@ -46,10 +46,7 @@ for date in dt:
 df1['Year'] = years 
 df1 = df1[df1['Year'] >= '2014-1-1']
 
-#%%
 
-
-#%%
 # 1.3 Simplify the "Contract Type" column 
 
 
@@ -67,8 +64,6 @@ def replace(x):
 
 df1["Contract type"] = replace(df1["Contract type"])
         
-
-#%%
 
 # 2. Data Processing: creating dataframes for dashboard 
 
@@ -141,9 +136,6 @@ def op(x):
         return True 
     else: return False 
     
-#%%
-
-#%%
 
 #2.2 Generate a new dataframe to display openings according to the AOS(are of specialization)
 
@@ -214,9 +206,6 @@ def convert(df):
 df2 = convert(df1)
 
 
-
-#%%
-
 # 2.3 Group and summarize the data 1) by years, areas, and contract types and 2) years and areas 
 
 
@@ -228,7 +217,6 @@ grouped2 = df2.groupby(["Year","Area"])
 df4 = grouped2["Area"].count().to_frame(name = 'Openings').reset_index()
 
 
-#%%
 
 # 3. Creating Dashboard
 
