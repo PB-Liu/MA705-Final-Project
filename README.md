@@ -20,7 +20,7 @@ Philosophy Jobs Dashboard (https://philjobs.herokuapp.com/)
     1.2. Add a new column 'year'; filter the dateframe for years since 2015
     1.3. Simplify the "Contract Type" column for future worth 
 
-##### 2. Data Processing: 
+##### 2. Data Transformation: 
 
     2.1. Define functions to re-classify job areas into 11 major categories of philosophy sub-fields
     2.2. Generate a new dataframe to display openings according to the AOS(are of specialization)
