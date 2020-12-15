@@ -317,15 +317,10 @@ def update_styles(selected_columns):
     Input(component_id='slct_area', component_property='value'),
 )
 
-def update_graph1(option_slctd):
-    # print(option_slctd)
-    # print(type(option_slctd))
-
-
+def update_graph1(option_slctd):  
     dff = df4.copy()
     dff = dff[dff["Area"].isin(option_slctd)]
 
-    # Plotly Express
     fig1 = px.line(dff, x="Year", y= "Openings", color = 'Area')
     
     return fig1 
